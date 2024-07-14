@@ -37,10 +37,10 @@ function Header({currentPage}) {
 
     function handleSearch(suggestion) {
         if (currentPage == 'details') {
-            navigate('pokedex/details', {state: {pokemonName: suggestion}})
+            navigate('/pokedex/details', {state: {pokemonName: suggestion}})
             window.location.reload();
         } else {
-            navigate('pokedex/details', {state: {pokemonName: suggestion}})
+            navigate('/pokedex/details', {state: {pokemonName: suggestion}})
         }
     }
 

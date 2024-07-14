@@ -34,7 +34,7 @@ function PokemonCard({ pokemonId = '1'}) {
     const data = {pokemonName: pokeDetails && pokeDetails.species.name}
 
     return (
-        <div onClick={() => navigate('pokedex/details' , {state: data})} className='fadein'>
+        <div onClick={() => navigate('/pokedex/details' , {state: data})} className='fadein'>
             <div className='pokemon-card' onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)}>
                 {
                     hover && 
