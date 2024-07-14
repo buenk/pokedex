@@ -12,7 +12,7 @@ function Home() {
             <Header currentPage='home'/>
 
             <div className="home-container fadein-fast">
-                <div className="pokemon" onClick={() => navigate('pokedex/all-pokemon')}><p>Pokémon</p></div>
+                <div className="pokemon" onClick={() => navigate('/pokedex/all-pokemon')}><p>Pokémon</p></div>
 
                 <div className="abilities"><p>Abilities (disabled)</p></div>
 
