@@ -1,0 +1,76 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+.pokemon {
+    background-image: url('https://cdn.mos.cms.futurecdn.net/kLrVvdXcJtrADurP9abxRZ-1200-80.jpg');
+    width: 100%;
+    height: 20rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+}
+
+.pokemon:hover {
+    background-image: url('https://cdn.mos.cms.futurecdn.net/kLrVvdXcJtrADurP9abxRZ-1200-80.jpg');
+    width: 100%;
+    height: 20rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    cursor: pointer;
+    color: cyan;
+}
+
+.abilities {
+    background-image: url('https://static0.gamerantimages.com/wordpress/wp-content/uploads/2021/07/pokemon-raichu-anime-screenshot.jpg');
+    width: 100%;
+    height: 20rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    box-shadow: inset 0 0 0 2000px rgba(41, 41, 41, 0.8);
+}
+
+.regions {
+    background-image: url('https://archives.bulbagarden.net/media/upload/thumb/0/0e/Xatu_Forest.png/1200px-Xatu_Forest.png');
+    width: 100%;
+    height: 20rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    box-shadow: inset 0 0 0 2000px rgba(64, 64, 64, 0.8);
+}
+
+.fadein-fast {
+    animation: fade-in 1s;
+  }
+  
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 100;
+    }
+}
+
+.fadein {
+    animation: fade-in 2s;
+  }
+  
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 100;
+    }
+}

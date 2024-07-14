@@ -1,0 +1,59 @@
+.gen-selector {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.gen {
+    margin-inline: 16px;
+}
+
+.change-gen {
+    font-size: 50px;
+    font-weight: 600;
+    background: none;
+    border: none;
+    color: white;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+
+.change-gen:hover {
+    cursor: pointer;
+    color: cyan;
+}
+
+.list-container {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.fadein-slow {
+    animation: fade-in 5s;
+  }
+  
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 100;
+    }
+}
+
+.fadein-fast {
+    animation: fade-in 0.5s;
+  }
+  
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 100;
+    }
+}

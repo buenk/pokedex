@@ -1,0 +1,49 @@
+.pokemon-card {
+    background: linear-gradient(to top, rgb(255, 255, 255, 0.1), rgba(255, 0, 0, 0));
+    width: 256px;
+    height: 240px;
+    border-radius: 10px;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.pokemon-card:hover {
+    cursor: pointer;
+    background: linear-gradient(to top, rgb(0, 183, 235, 0.5), rgba(255, 0, 0, 0));
+}
+
+.pokemon-name, .pokemon-image {
+    transition: opacity 0.5s ease;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.fadein {
+    animation: fade-in 3s;
+  }
+  
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 100;
+    }
+}
+
+.fadein-slow {
+    animation: fade-in 5s;
+  }
+  
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 100;
+    }
+}

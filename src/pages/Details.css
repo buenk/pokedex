@@ -1,0 +1,101 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+form {
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+form > input {
+    margin-left: 20px;
+}
+
+form > button {
+    height: 100%;
+    align-self: flex-end;
+}
+
+.main {
+    color: white;
+    background-color: #292d39;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 40px;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 8px;
+}
+
+.data-container {
+    display: flex;
+}
+
+.image-container {
+    margin-right: 30px;
+    background-color:rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.image-container > img {
+    height: 300px;
+}
+
+
+.data {
+    display: flex;
+    flex-direction: column;
+}
+
+.data > h2 {
+    margin: 0px;
+}
+
+.data--cols {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.title {
+    font-weight: 600;
+    font-size: 45px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.description {
+    font-weight: 400;
+    font-size: 17px;
+    margin: 0px;
+    margin-bottom: 20px;
+}
+
+.col-1 {
+    font-weight: 300;
+}
+
+.col-2 {
+    font-weight: 500;
+}
+
+p {
+    margin: 0px;
+}
+
+.fadein-fast {
+    animation: fade-in 1s;
+  }
+  
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 100;
+    }
+}
