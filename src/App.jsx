@@ -11,10 +11,11 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route index element={<Home />} />
-          <Route path='/home' element={<Home />} />
-          <Route path='/details' element={<Details intPokemon='raichu'/>} />
-          <Route path='/all-pokemon' element={<PokemonList />} />
-          <Route path='/all-abilities' element={<AbilitiesList />} />
+          <Route path='/pokedex' element={<Home />} />
+          <Route path='/pokedex/home' element={<Home />} />
+          <Route path='/pokedex/details' element={<Details intPokemon='raichu'/>} />
+          <Route path='/pokedex/all-pokemon' element={<PokemonList />} />
+          <Route path='/pokedex/all-abilities' element={<AbilitiesList />} />
         </Routes>
       </BrowserRouter>
     </>
