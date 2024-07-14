@@ -48,7 +48,7 @@ function Header({currentPage}) {
         <div>
             <div className="header">
                 <div className='header--left'>
-                    <a href='pokedex/home' className={(currentPage == 'home') ? 'link currentPage' : 'link'}>Home</a>
+                    <a href='/pokedex/home' className={(currentPage == 'home') ? 'link currentPage' : 'link'}>Home</a>
                     <a href='/pokedex/all-pokemon' className={(currentPage == 'all-pokemon') ? 'link currentPage' : 'link'}>Pokémon</a>
                     <p className={(currentPage == 'all-abilities') ? 'currentPage disabled' : 'disabled'}>Abilities</p>
                     <p className={(currentPage == 'all-regions') ? 'currentPage disabled' : 'disabled'}>Regions</p>
