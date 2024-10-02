@@ -53,7 +53,7 @@ function Header({currentPage}) {
                     <p className={(currentPage == 'all-abilities') ? 'currentPage disabled' : 'disabled'}>Abilities</p>
                     <p className={(currentPage == 'all-regions') ? 'currentPage disabled' : 'disabled'}>Regions</p>
                 </div>
-                
+
                 <div className="search-container">
                     <input type="text" placeholder='Search Pokémon' value={searchValue} onChange={handleChange}/>
                     {searchValue && <div className="suggestions">
